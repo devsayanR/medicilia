@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="MediaQueryJoin.css">
+    <title>Join us</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <nav>
+                <div class="option">
+                    <button type="button" onclick="signin()" class="btn active">Sign in</button>
+                    <button type="button" onclick="register()" class="btn">Register</button>
+                </div>
+            </nav>
+            <div class="hr"></div>
+            <div class="image">
+                <img src="https://img.freepik.com/premium-vector/doctor-surgeon-pharmacist-therapist-with-stethoscope-smiling-medic-worker-medical-staff_458444-338.jpg?w=120"
+                    alt="image">
+            </div>
+            <div class="form">
+                <div id="sign-in">
+                    <form action="index.html" id="SIGNIN">
+                        <input type="email number" placeholder="Email or Mobile Number" required>
+                        <input type="password" placeholder="Password" required>
+                        <label for="Remember"><input type="checkbox" id="Remember">Remember me</label>
+                        <input type="submit" value="Sign in">
+                        <a href="#">Forget Password</a>
+                    </form>
+                </div>
+                <div id="register">
+                    <form action="index.html" id="REGISTER">
+                        <input type="text" placeholder="Name" required>
+                        <input type="tell" placeholder="Contact Number" required>
+                        <input type="email" placeholder="Email (optional)">
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <input type="submit" value="Register">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="join.js"></script>
+</body>
+
+</html>

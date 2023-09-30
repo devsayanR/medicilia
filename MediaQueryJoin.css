@@ -1,0 +1,98 @@
+@media screen and (max-width: 600px) {
+    .form {
+        gap: 205px;
+    }
+
+    .box {
+        height: 23rem;
+        width: 15rem;
+    }
+
+    .box nav {
+        margin-top: 15px;
+    }
+
+    .option button {
+        padding: 3px 8px;
+        margin-inline: 10px;
+        border-radius: 18px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hr {
+        margin: 10px 40px;
+    }
+
+    .image img {
+        width: 80px;
+    }
+
+    #sign-in form {
+        padding: 8px;
+        margin-top: -10px;
+        margin-left: 38px;
+        padding-right: 18px;
+    }
+
+    #sign-in form input {
+        margin: 2px;
+        width: 200px;
+        padding: 7px;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+
+    #sign-in form input[type="checkbox"] {
+        margin-left: -80px;
+    }
+
+    #sign-in form label {
+        font-size: .8rem;
+        margin-top: 8px;
+    }
+
+    #sign-in form input[type="submit"] {
+        width: 150px;
+        margin-top: 8px;
+        font-size: .9rem;
+        border-radius: 20px;
+    }
+
+    #sign-in form input[type="submit"]:hover {
+        letter-spacing: 1px;
+    }
+
+    #sign-in form a {
+        transform: translateX(45px) translateY(40px);
+        font-size: 12px;
+    }
+
+    /* ========================================================== */
+    #register form {
+        padding-right: 25px;
+        margin-top: 3px;
+    }
+
+    #register form input {
+        width: 200px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 2px;
+        margin-top: 2px;
+    }
+
+    #register form input[type="submit"] {
+        width: 150px;
+        margin-top: 5px;
+        transform: translateX(28px);
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+
+    #register form input[type="submit"]:hover{
+        transform: translateX(28px) scale(1.1);
+        letter-spacing: 1px;
+    }
+}

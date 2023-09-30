@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c211c;
+}
+
+.box {
+    background-color: rgb(11, 59, 28);
+    height: 35rem;
+    width: 25rem;
+    border: 3px solid rgb(0, 242, 255);
+    box-shadow: 0 0 .8rem rgb(0, 242, 255);
+    border-radius: 5px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.box nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.option button {
+    background-color: aqua;
+    padding: 5px 20px;
+    margin-inline: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.hr {
+    border: 2px solid aqua;
+    border-radius: 20px;
+    margin: 30px 45px 15px 45px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+
+/* ================================================================================================================================= */
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+#sign-in form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    left: 205px;
+}
+
+#sign-in form input {
+    margin: 5px;
+    width: 300px;
+    padding: 8px 15px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#sign-in form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    transition: .5s;
+}
+
+#sign-in form input[type="checkbox"] {
+    width: 15px;
+    cursor: pointer;
+}
+
+#sign-in form input[type="submit"] {
+    width: 150px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: 600;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    cursor: pointer;
+    transition: .2s;
+}
+
+#sign-in form input[type="submit"]:hover {
+    box-shadow: 0 0 1rem #000;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+#sign-in form label {
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#sign-in form a {
+    color: aqua;
+    text-decoration: none;
+    transform: translateX(100px) translateY(30px);
+}
+
+#sign-in form a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+#register form {
+    position: relative;
+    left: 220px;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+#register form input {
+    margin: 5px;
+    width: 300px;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#register form input[type="submit"] {
+    width: 150px;
+    margin-top: 10px;
+    transform: translateX(80px);
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: 600;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    cursor: pointer;
+    transition: .2s;
+}
+
+#register form input[type="submit"]:hover {
+    box-shadow: 0 0 1rem #000;
+    transform: translateX(80px) scale(1.1);
+    letter-spacing: 2px;
+}
+
+/* ================================================================================================================================== */
+
+.active{
+    box-shadow: 0 0 1.5rem aquamarine;
+    transform: scale(1.1);
+}
