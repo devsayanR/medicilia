@@ -136,7 +136,7 @@ nav {
     font-weight: 600;
     position: relative;
     cursor: pointer;
-    color: rgb(5, 5, 162);
+    color: #fff;
     transition: .3s;
 }
 
@@ -149,7 +149,6 @@ nav {
 
 .header-left button:hover span {
     transform: translateX(6px);
-    color: #fff;
 }
 
 .header-left button:hover {
@@ -449,7 +448,7 @@ nav {
 }
 
 #contact .right a {
-    color: #00a2ff;
+    color: #00c3ff;
     display: flex;
     flex-direction: row;
     line-height: 40px;
@@ -478,7 +477,7 @@ nav {
 }
 
 #contact .right #mail i {
-    color: rgb(10, 10, 151);
+    color: #b300ff;
 }
 
 #contact .social-media {
