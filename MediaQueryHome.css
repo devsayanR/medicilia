@@ -105,7 +105,7 @@
     .nav-right ul {
         position: absolute;
         background: #775d06;
-        right: -100%;
+        right: -150%;
         top: 100%;
         width: 25%;
         height: 450%;
@@ -240,7 +240,7 @@
 }
 
 /* ~~~~ Mobile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 655px) {
 
     #preloader {
         background-size: 25%;
