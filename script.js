@@ -12,7 +12,7 @@ toggleButton.addEventListener('click', () => {
     navLinks.classList.toggle('right-to-left');
 })
 
-let changeIcon = function(icon) {
+let changeIcon = function (icon) {
     icon.classList.toggle('fa-times');
 }
 
@@ -20,16 +20,20 @@ window.addEventListener('scroll', reveal);
 
 function reveal() {
     const reveals = document.querySelectorAll('.reveal');
-    for (let i = 0; i < reveals.length; i++){
+    for (let i = 0; i < reveals.length; i++) {
         const windowheheight = window.innerHeight;
         const revealtop = reveals[i].getBoundingClientRect().top;
         var revealPoint = 150;
 
-        if(revealtop < windowheheight - revealPoint){
+        if (revealtop < windowheheight - revealPoint) {
             reveals[i].classList.add("acti");
-        } else{
+        } else {
             reveals[i].classList.remove("acti");
         }
     }
 }
 
+const loader = document.getElementById('preloader');
+window.addEventListener('load', () => {
+    loader.style.display = 'none';
+})
