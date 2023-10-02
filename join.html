@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://document-export.canva.com/TyJsg/DAFuJdTyJsg/19/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230930T232537Z&X-Amz-Expires=25877&X-Amz-Signature=ee01baab8a4ede541d1357a0e0ec769417f4222aa5b8c21340b2a2eefddb2eaa&X-Amz-SignedHeaders=host&response-expires=Sun%2C%2001%20Oct%202023%2006%3A36%3A54%20GMT" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://document-export.canva.com/TyJsg/DAFuJdTyJsg/19/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230930T232537Z&X-Amz-Expires=25877&X-Amz-Signature=ee01baab8a4ede541d1357a0e0ec769417f4222aa5b8c21340b2a2eefddb2eaa&X-Amz-SignedHeaders=host&response-expires=Sun%2C%2001%20Oct%202023%2006%3A36%3A54%20GMT"
+        type="image/x-icon">
     <link rel="stylesheet" href="join.css">
     <link rel="stylesheet" href="MediaQueryJoin.css">
     <title>Join us</title>
@@ -30,7 +32,10 @@
                     <form action="index.html" id="SIGNIN">
                         <input type="email number" placeholder="Email or Mobile Number" required>
                         <input type="password" placeholder="Password" required>
-                        <label for="Remember"><input type="checkbox" id="Remember">Remember me</label>
+                        <div id="check-box">
+                            <input type="checkbox" id="Remember">
+                            <label for="Remember">Remember me</label>
+                        </div>
                         <input type="submit" value="Sign in">
                         <a href="#">Forget Password</a>
                     </form>

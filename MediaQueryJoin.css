@@ -43,10 +43,6 @@
         border-radius: 2px;
     }
 
-    #sign-in form input[type="checkbox"] {
-        margin-left: -80px;
-    }
-
     #sign-in form label {
         font-size: .8rem;
         margin-top: 8px;
@@ -91,7 +87,7 @@
         border-radius: 20px;
     }
 
-    #register form input[type="submit"]:hover{
+    #register form input[type="submit"]:hover {
         transform: translateX(28px) scale(1.1);
         letter-spacing: 1px;
     }

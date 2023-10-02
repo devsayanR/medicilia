@@ -113,8 +113,14 @@
 }
 
 #sign-in form input[type="checkbox"] {
-    width: 15px;
+    width: 20px;
+    margin: 0;
     cursor: pointer;
+    margin-top: 5px;
+}
+
+#check-box {
+    text-align: center;
 }
 
 #sign-in form input[type="submit"] {
