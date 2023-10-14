@@ -19,7 +19,7 @@
 }
 
 #preloader{
-    background: #000000 url(https://i.gifer.com/origin/a6/a6b6c68285b2389353c579c87ad9c1d3_w200.webp) no-repeat center center;
+    background: #000000 url(image/loader.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
