@@ -1,3 +1,3 @@
-Visit the Website :- [Click Here](https://devsayanr.github.io/medicilia/ "Medicilia")
+Visit the site :- [Click Here](https://devsayanr.github.io/medicilia/ "Medicilia")
 
 
