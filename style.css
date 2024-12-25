@@ -157,7 +157,8 @@ nav {
 
 #services {
     margin-top: 100px;
-    padding-inline: 40px
+    padding-inline: 40px;
+    user-select: none;
 }
 
 #services h1 {
@@ -404,7 +405,6 @@ footer {
     background-color: #2d2b2b;
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 0 !important;
 }
 
 #contact {
@@ -415,7 +415,6 @@ footer {
     height: 200px;
     margin-bottom: 0 !important;
     margin-top: 50px;
-    position: absolute;
     width: 100%
 }
 
@@ -480,7 +479,7 @@ footer {
     justify-content: space-around;
     font-size: 1.8rem;
     gap: 20px;
-    margin-top: 15px
+    padding-top: 15px
 }
 
 #contact .social-media #facebook {
@@ -499,9 +498,9 @@ footer {
 }
 
 .copyright {
-    background-color: #2d2b2b;
-    padding: 10px 0;
-    z-index: 100;
     text-align: center;
-    color: #235ad0;
+    color: #98abd4;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
 }
