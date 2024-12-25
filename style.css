@@ -496,11 +496,3 @@ footer {
     color: #cd201f;
     border-radius: 25px
 }
-
-.copyright {
-    text-align: center;
-    color: #98abd4;
-    position: absolute;
-    width: 100%;
-    padding: 10px 0;
-}
